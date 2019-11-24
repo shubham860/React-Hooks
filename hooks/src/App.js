@@ -4,8 +4,9 @@ import Counter from './components/Counter'
 import PrevCounter from './components/PrevCounter'
 import UsestateObject from './components/UsestateObject'
 import UsestateArray from './components/UsestateArray'
-import UseeffectRender from './components/UseeffectRender'
-
+import UseeffectRender from './components/UseeffectRender';
+import Useeffect_once from './components/Useeffect_once';
+import UseeffectCleanup from './components/UseeffectCleanup'
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         {/*<Counter/>*/}
       {/*<UsestateObject/>*/}
       {/*<UsestateArray/>*/}
-      {<UseeffectRender/>}
+      {/*{<UseeffectRender/>}*/}
+      {/*{<Useeffect_once/>}*/}
+      <UseeffectCleanup/>
     </div>
   );
 }
