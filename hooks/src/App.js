@@ -4,14 +4,17 @@ import Counter from './components/Counter'
 import PrevCounter from './components/PrevCounter'
 import UsestateObject from './components/UsestateObject'
 import UsestateArray from './components/UsestateArray'
+import UseeffectRender from './components/UseeffectRender'
+
 
 function App() {
   return (
     <div className="App">
       {/*<Counter/>*/}
-      {/*<PrevCounter/>*/}
+        {/*<Counter/>*/}
       {/*<UsestateObject/>*/}
-      {<UsestateArray/>}
+      {/*<UsestateArray/>*/}
+      {<UseeffectRender/>}
     </div>
   );
 }
