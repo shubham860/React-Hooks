@@ -6,7 +6,8 @@ import UsestateObject from './components/UsestateObject'
 import UsestateArray from './components/UsestateArray'
 import UseeffectRender from './components/UseeffectRender';
 import Useeffect_once from './components/Useeffect_once';
-import UseeffectCleanup from './components/UseeffectCleanup'
+import UseeffectCleanup from './components/UseeffectCleanup';
+import FetchingData from './components/FetchingData'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/*<UsestateArray/>*/}
       {/*{<UseeffectRender/>}*/}
       {/*{<Useeffect_once/>}*/}
-      <UseeffectCleanup/>
+      {/*<UseeffectCleanup/>*/}
+      <FetchingData/>
     </div>
   );
 }

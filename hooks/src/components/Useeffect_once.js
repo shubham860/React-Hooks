@@ -13,7 +13,7 @@ const Useeffect_once = (props) => {
     useEffect(() => {
         console.log('effect');
         window.addEventListener("mousemove", observe)
-        return() => {
+        return()=>{
             console.log('return');
             window.removeEventListener("mousemove", observe);
         }
