@@ -11,6 +11,7 @@ import FetchingData2 from './components/useEffect/FetchingData2'
 import ComponentC from "./components/Context_api/ComponentC";
 import {UserProvider,ChannelProvider} from "./components/Context_api/ContextApi";
 import Counter from './components/useReducer/Counter'
+import Counter2 from './components/useReducer/Counter2'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/*        <ComponentC/>*/}
       {/*    </ChannelProvider>*/}
       {/*</UserProvider>*/}
-      <Counter/>
+      {/*<Counter/>*/}
+      <Counter2/>
     </div>
   );
 }

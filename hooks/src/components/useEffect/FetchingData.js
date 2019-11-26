@@ -23,7 +23,6 @@ function FetchingData(props) {
                 })
             }
         </ul>
-
         </div>
     );
 }
