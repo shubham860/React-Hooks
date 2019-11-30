@@ -12,6 +12,7 @@ import ComponentC from "./components/Context_api/ComponentC";
 import {UserProvider,ChannelProvider} from "./components/Context_api/ContextApi";
 import Counter from './components/useReducer/Counter'
 import Counter2 from './components/useReducer/Counter2'
+import Counter3 from './components/useReducer/Counter3'
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/*    </ChannelProvider>*/}
       {/*</UserProvider>*/}
       {/*<Counter/>*/}
-      <Counter2/>
+      {/*<Counter2/>*/}
+      <Counter3/>
     </div>
   );
 }
