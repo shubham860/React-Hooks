@@ -23,6 +23,12 @@ import UseMemoHook from "./components/useMemoHook/UseMemoHook";
 import NormalRef from "./components/UseRefHook/NormalRef";
 import ClassInterval from "./components/UseRefHook/ClassInterval";
 import FunctionalRefInterval from "./components/UseRefHook/FunctionalRefInterval";
+import DocTitleOne from "./components/CustomHook/DocumentTitlehooks/DocTitleOne";
+import DocTitleTwo from "./components/CustomHook/DocumentTitlehooks/DocTitleTwo";
+import CounterOne from "./components/CustomHook/CounterHook/CounterOne.";
+import CounterTwo from "./components/CustomHook/CounterHook/CounterTwo";
+import UserForm from "./components/CustomHook/InputHook/UserForm";
+
 
 export const countContext = React.createContext();
 
@@ -71,8 +77,13 @@ function App() {
       {/*<ParentCallback/>*/}
       {/*<UseMemoHook/>*/}
       {/*<NormalRef/>*/}
-      <ClassInterval/>
-      <FunctionalRefInterval/>
+      {/*<ClassInterval/>*/}
+      {/*<FunctionalRefInterval/>*/}
+      {/*<DocTitleOne/>*/}
+      {/*<DocTitleTwo/>*/}
+      {/*<CounterOne/>*/}
+      {/*<CounterTwo/>*/}
+      <UserForm/>
     </div>
    </countContext.Provider>
   );
