@@ -20,6 +20,9 @@ import UseStateFetching from './components/FetchingUseReducer/UseStateFetching';
 import UseReducerFetching from './components/FetchingUseReducer/UseReducerFetching';
 import ParentCallback from "./components/Callbackhook/ParentCallback";
 import UseMemoHook from "./components/useMemoHook/UseMemoHook";
+import NormalRef from "./components/UseRefHook/NormalRef";
+import ClassInterval from "./components/UseRefHook/ClassInterval";
+import FunctionalRefInterval from "./components/UseRefHook/FunctionalRefInterval";
 
 export const countContext = React.createContext();
 
@@ -66,7 +69,10 @@ function App() {
       {/*<UseStateFetching/>*/}
       {/*<UseReducerFetching/>*/}
       {/*<ParentCallback/>*/}
-      <UseMemoHook/>
+      {/*<UseMemoHook/>*/}
+      {/*<NormalRef/>*/}
+      <ClassInterval/>
+      <FunctionalRefInterval/>
     </div>
    </countContext.Provider>
   );
