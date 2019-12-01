@@ -16,6 +16,8 @@ import Counter3 from './components/useReducer/Counter3'
 import ComponentA from "./components/UseContext+UseReducer/ComponentA";
 import ComponentB from "./components/UseContext+UseReducer/ComponentB";
 import ComponentC from './components/UseContext+UseReducer/ComponentC';
+import UseStateFetching from './components/FetchingUseReducer/UseStateFetching';
+import UseReducerFetching from './components/FetchingUseReducer/UseReducerFetching';
 
 export const countContext = React.createContext();
 
@@ -40,7 +42,6 @@ function App() {
   return (
    <countContext.Provider value={{stateValue : count , stateMethod : dispatch }}>
     <div className="App">
-        Count - {count}
       {/*<Counter/>*/}
         {/*<Counter/>*/}
       {/*<UsestateObject/>*/}
@@ -57,9 +58,11 @@ function App() {
       {/*<Counter/>*/}
       {/*<Counter2/>*/}
       {/*<Counter3/>*/}
-      <ComponentA/>
-      <ComponentB/>
-      <ComponentC/>
+      {/*<ComponentA/>*/}
+      {/*<ComponentB/>*/}
+      {/*<ComponentC/>*/}
+      {/*<UseStateFetching/>*/}
+      <UseReducerFetching/>
     </div>
    </countContext.Provider>
   );
