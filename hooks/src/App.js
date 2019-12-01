@@ -18,6 +18,8 @@ import ComponentB from "./components/UseContext+UseReducer/ComponentB";
 import ComponentC from './components/UseContext+UseReducer/ComponentC';
 import UseStateFetching from './components/FetchingUseReducer/UseStateFetching';
 import UseReducerFetching from './components/FetchingUseReducer/UseReducerFetching';
+import ParentCallback from "./components/Callbackhook/ParentCallback";
+import UseMemoHook from "./components/useMemoHook/UseMemoHook";
 
 export const countContext = React.createContext();
 
@@ -62,7 +64,9 @@ function App() {
       {/*<ComponentB/>*/}
       {/*<ComponentC/>*/}
       {/*<UseStateFetching/>*/}
-      <UseReducerFetching/>
+      {/*<UseReducerFetching/>*/}
+      {/*<ParentCallback/>*/}
+      <UseMemoHook/>
     </div>
    </countContext.Provider>
   );
