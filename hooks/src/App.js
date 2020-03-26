@@ -28,6 +28,7 @@ import DocTitleTwo from "./components/CustomHook/DocumentTitlehooks/DocTitleTwo"
 import CounterOne from "./components/CustomHook/CounterHook/CounterOne.";
 import CounterTwo from "./components/CustomHook/CounterHook/CounterTwo";
 import UserForm from "./components/CustomHook/InputHook/UserForm";
+import New from './components/useState/New';
 
 
 export const countContext = React.createContext();
@@ -53,6 +54,7 @@ function App() {
   return (
    <countContext.Provider value={{stateValue : count , stateMethod : dispatch }}>
     <div className="App">
+        <New/>
       {/*<Counter/>*/}
         {/*<Counter/>*/}
       {/*<UsestateObject/>*/}
